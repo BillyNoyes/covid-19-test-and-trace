@@ -70,11 +70,13 @@ function Form() {
           placeholder="What is your phone number?*"
           value={phoneNumber}
           onChange={(event) => setPhoneNumber(event.target.value)}
+          type="tel"
         />
         <Input
           placeholder="What is your email address?*"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
+          type="email"
         />
         <Button
           className="form__button"
