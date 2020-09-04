@@ -1,6 +1,6 @@
 ## COVID-19 Test & Trace
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/doge/wow.svg)](https://coveralls.io/r/doge/wow)
+[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
 [COVID-19 Test & Trace](https://covid-19-test-and.web.app/)
 
@@ -9,6 +9,17 @@ In order to open your business up to customers in the UK, you are required to su
 This system allows smaller businesses, that do not have access to the bigger tracing system, to reach out to me and get themselves signed up. Customers entering the business will scan a QR code leading to the domain above and will be able to fill out their personal information.
 
 Upon submitting, their details are stored securely in a Firebase Firestore, alongside the time they entered the business, this data can then be downloaded and sent off to the NHS system to keep track of each customer.
+
+---
+
+## Technical Details
+
+- Front-end built using React
+- Back-end built using Firebase Firestore
+- React Router for managing page and url changes
+- Material UI for form design/styling
+
+---
 
 ## Contributing
 
@@ -21,7 +32,7 @@ Upon submitting, their details are stored securely in a Firebase Firestore, alon
   - 🍴 Fork this repo!
 
 - **Option 2**
-  - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+  - 👯 Clone this repo to your local machine using `https://github.com/BillyNoyes/covid-19-test-and-trace.git`
 
 ### Step 2
 
@@ -29,7 +40,7 @@ Upon submitting, their details are stored securely in a Firebase Firestore, alon
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/BillyNoyes/covid-19-test-and-trace/compare/" target="_blank">`https://github.com/BillyNoyes/covid-19-test-and-trace/compare/`</a>.
 
 ---
 
