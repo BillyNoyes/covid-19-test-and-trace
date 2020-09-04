@@ -27,3 +27,12 @@
 .form__inputs > .form__button {
   margin-top: 5%;
 }
+
+@media only screen and (min-width: 1500px) {
+  .form__inputs > .form__button {
+    margin-bottom: 100px;
+  }
+  .form {
+    margin-bottom: 20px;
+  }
+}
