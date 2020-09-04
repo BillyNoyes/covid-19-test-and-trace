@@ -10,6 +10,17 @@ This system allows smaller businesses, that do not have access to the bigger tra
 
 Upon submitting, their details are stored securely in a Firebase Firestore, alongside the time they entered the business, this data can then be downloaded and sent off to the NHS system to keep track of each customer.
 
+---
+
+## Technical Details
+
+- Front-end built using React
+- Back-end built using Firebase Firestore
+- React Router for managing page and url changes
+- Material UI for form design/styling
+
+---
+
 ## Contributing
 
 > To get started...
